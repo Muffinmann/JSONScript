@@ -1,0 +1,17 @@
+{
+  "name": "jsonscript",
+  "version": "0.0.0",
+  "description": "simple logic operation in JSON format",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node dist/test.js"
+  },
+  "author": "Muffinmann",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
